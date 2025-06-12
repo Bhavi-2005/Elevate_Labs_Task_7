@@ -38,17 +38,6 @@ This task demonstrates how to use **SQL inside Python** to extract and visualize
 
 ---
 
-## 🔍 SQL Query Used
-```sql
-SELECT 
-    product, 
-    SUM(quantity) AS total_qty, 
-    SUM(quantity * price) AS revenue 
-FROM sales 
-GROUP BY product
-
----
-
 📸 Output Summary
 The notebook prints a sales summary table and generates a bar chart comparing revenue by product.
 
@@ -60,4 +49,15 @@ The notebook prints a sales summary table and generates a bar chart comparing re
 -Using Pandas to fetch and format SQL data
 -Basic matplotlib plotting
 
+---
 
+## 🔍 SQL Query Used
+```sql
+SELECT 
+    product, 
+    SUM(quantity) AS total_qty, 
+    SUM(quantity * price) AS revenue 
+FROM sales 
+GROUP BY product
+
+---
