@@ -38,12 +38,12 @@ This task demonstrates how to use **SQL inside Python** to extract and visualize
 
 ---
 
-📸 Output Summary
+## 📸 Output Summary
 The notebook prints a sales summary table and generates a bar chart comparing revenue by product.
 
 ---
 
-📌 Concepts Practiced
+## 📌 Concepts Practiced
 -SQL GROUP BY, SUM operations
 -Python-SQLite connection
 -Using Pandas to fetch and format SQL data
